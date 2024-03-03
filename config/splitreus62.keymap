@@ -8,6 +8,25 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        bkslsh {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <22 21>;
+        };
+
+        RBrkt {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <21 20>;
+        };
+
+        LBrkt {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <19 20>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
