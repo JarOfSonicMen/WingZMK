@@ -25,6 +25,21 @@
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <19 20>;
         };
+
+        Enter {
+            bindings = <&kp ENTER>;
+            key-positions = <34 33>;
+        };
+
+        Quotes {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <33 32>;
+        };
+
+        Colons {
+            bindings = <&kp SEMI>;
+            key-positions = <32 31>;
+        };
     };
 
     keymap {
