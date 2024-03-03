@@ -40,6 +40,21 @@
             bindings = <&kp SEMI>;
             key-positions = <32 31>;
         };
+
+        Slash {
+            bindings = <&kp SLASH>;
+            key-positions = <58 57>;
+        };
+
+        Period {
+            bindings = <&kp PERIOD>;
+            key-positions = <45 44>;
+        };
+
+        Comma {
+            bindings = <&kp COMMA>;
+            key-positions = <44 43>;
+        };
     };
 
     keymap {
